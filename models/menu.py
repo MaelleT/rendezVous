@@ -31,6 +31,8 @@ response.menu += [(T('Menu DEV2'), False, URL('default', 'index'), [(T('Menu DEV
 
 response.menu += [(T('Menu DEV1'), False, URL('default', 'index'), [(T('Menu DEV11'), False, URL('default', 'index'), []),(T('Menu DEV12'), False, URL('default', 'index'), [])])]
 
+response.menu += [(T('Menu DEV3_2'), False, URL('default', 'index'), [])]
+
 response.menu +=[
     (T('Administration'), False, URL('manager', 'index'), [
             (T('Charger les jardins'), False, URL('manager', 'charger_jardin'), []),
