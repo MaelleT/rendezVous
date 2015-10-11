@@ -25,12 +25,15 @@ response.google_analytics_id = None
 #########################################################################
 
 response.menu = [
-    (T('Les Jardins Nantais'), False, URL('default', 'index'), []),
+    (T('Les Jardins Nantais'), False, URL('default', 'index'), [])]
+response.menu +=[
     (T('Administration'), False, URL('manager', 'index'), [
             (T('Charger les jardins'), False, URL('manager', 'charger_jardin'), []),
             (T('Ajouter un rendez-vous'), False, URL('manager', 'nouveauRDV'), [])
     ])
 ]
+
+
 
 DEVELOPMENT_MENU = False
 
