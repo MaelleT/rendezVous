@@ -29,7 +29,7 @@ response.menu = [
 
 response.menu += [(T('Menu DEV2'), False, URL('default', 'index'), [(T('Menu DEV21'), False, URL('default', 'index'), [])])]
 
-response.menu += [(T('Menu DEV1'), False, URL('default', 'index'), [])]
+response.menu += [(T('Menu DEV1'), False, URL('default', 'index'), [(T('Menu DEV11'), False, URL('default', 'index'), [])])]
 
 response.menu +=[
     (T('Administration'), False, URL('manager', 'index'), [
